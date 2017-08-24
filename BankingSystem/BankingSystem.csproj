@@ -42,11 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BakingClasses\Account.cs" />
+    <Compile Include="BakingClasses\Bank.cs" />
+    <Compile Include="BakingClasses\Checking.cs" />
+    <Compile Include="BakingClasses\Customer.cs" />
+    <Compile Include="BakingClasses\Loan.cs" />
+    <Compile Include="BakingClasses\Savings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
